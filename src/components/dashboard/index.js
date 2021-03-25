@@ -1,12 +1,14 @@
-import './dashboard.css';
+
+
+
 
 function dashboard() {
   return (
     <div className="dashboard">
       <header className="dashboard-header">
-        <p>
+        <h1 className="fadeOut typewriter">
         dashboard
-        </p>
+        </h1>
       </header>
     </div>
   );
